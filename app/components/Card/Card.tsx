@@ -5,7 +5,7 @@ import InformationCard from "./InformationCard";
 
 function Card() {
   return (
-    <div className="flex justify-center space-x-16 ">
+    <div className="flex flex-col md:flex-row justify-center md:space-x-16 space-y-10">
       <MediaCard />
       <InformationCard />
     </div>
